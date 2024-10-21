@@ -6,9 +6,9 @@ using Microsoft.EntityFrameworkCore;
 
 namespace BLL.DAL;
 
-public partial class StudentsDBContext : DbContext
+public partial class Db : DbContext
 {
-    public StudentsDBContext(DbContextOptions<StudentsDBContext> options)
+    public Db(DbContextOptions<Db> options)
         : base(options)
     {
     }
